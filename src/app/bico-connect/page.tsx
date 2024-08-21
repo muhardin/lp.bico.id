@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const page = () => {
   return (
     <div className="min-h-screen">
@@ -35,7 +37,9 @@ const page = () => {
       </div>
       <div className="space-y-5 pt-16 pb-20 md:grid-cols-2 md:mx-10 md:gap-4 md:space-y-0 md:grid lg:grid-cols-3 px-10">
         <button className="border-[1px] rounded-xl w-full flex flex-col">
-          <img
+          <Image
+            width={100}
+            height={100}
             src="https://storage.googleapis.com/icx-bucket-production/icx-event-the-startup-pitch-banner-image-16-9.png"
             alt="event-banner"
             className="rounded-t-xl"
@@ -47,7 +51,9 @@ const page = () => {
               </h3>
             </div>
             <div className="pt-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="icon"
@@ -57,7 +63,9 @@ const page = () => {
               </p>
             </div>
             <div className="pt-1 pb-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/presentation-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="type"
@@ -69,7 +77,9 @@ const page = () => {
           </div>
         </button>
         <button className="border-[1px] rounded-xl w-full flex flex-col">
-          <img
+          <Image
+            width={100}
+            height={100}
             src="https://storage.googleapis.com/icx-bucket-production/icx-event-web-banner_trihill.png"
             alt="event-banner"
             className="rounded-t-xl"
@@ -81,7 +91,9 @@ const page = () => {
               </h3>
             </div>
             <div className="pt-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="icon"
@@ -91,7 +103,9 @@ const page = () => {
               </p>
             </div>
             <div className="pt-1 pb-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/presentation-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="type"
@@ -103,7 +117,9 @@ const page = () => {
           </div>
         </button>
         <button className="border-[1px] rounded-xl w-full flex flex-col">
-          <img
+          <Image
+            width={100}
+            height={100}
             src="https://storage.googleapis.com/icx-bucket-production/icx-event-web-banner_networking-luncheon.png"
             alt="event-banner"
             className="rounded-t-xl"
@@ -115,7 +131,9 @@ const page = () => {
               </h3>
             </div>
             <div className="pt-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="icon"
@@ -125,7 +143,9 @@ const page = () => {
               </p>
             </div>
             <div className="pt-1 pb-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/presentation-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="type"
@@ -137,7 +157,9 @@ const page = () => {
           </div>
         </button>
         <button className="border-[1px] rounded-xl w-full flex flex-col">
-          <img
+          <Image
+            width={100}
+            height={100}
             src="https://storage.googleapis.com/icx-bucket-production/event-2-online.jpeg"
             alt="event-banner"
             className="rounded-t-xl"
@@ -149,7 +171,9 @@ const page = () => {
               </h3>
             </div>
             <div className="pt-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="icon"
@@ -159,7 +183,9 @@ const page = () => {
               </p>
             </div>
             <div className="pt-1 pb-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/presentation-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="type"
@@ -171,7 +197,9 @@ const page = () => {
           </div>
         </button>
         <button className="border-[1px] rounded-xl w-full flex flex-col">
-          <img
+          <Image
+            width={100}
+            height={100}
             src="https://storage.googleapis.com/icx-bucket-production/event-1-offline.jpeg"
             alt="event-banner"
             className="rounded-t-xl"
@@ -183,7 +211,9 @@ const page = () => {
               </h3>
             </div>
             <div className="pt-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="icon"
@@ -193,7 +223,9 @@ const page = () => {
               </p>
             </div>
             <div className="pt-1 pb-3 flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/presentation-icon.svg"
                 className="w-[14px] h-[14px]"
                 alt="type"
