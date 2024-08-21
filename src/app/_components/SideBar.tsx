@@ -2,22 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 const SideBar = () => {
   return (
-    <div
-      id="sidebar"
-      className="bg-gradient-to-br fixed from-black via-black to-gray-600 z-50 w-full h-screen text-white p-10 space-y-10 hidden ease-in-out duration-500"
-    >
+    <div className="">
       <div className="flex justify-between items-center">
         <Link href="/">
           <Image
             loading="lazy"
-            className="h-[26px] object-contain"
-            src="/images/icx-navbar-logo.webp"
+            className="h-[60px] object-contain"
+            src="/images/logo.png"
             alt="icx-logo"
             width={100}
             height={40}
           />
         </Link>
-        <button>
+        {/* <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -32,10 +29,10 @@ const SideBar = () => {
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>
-        </button>
+        </button> */}
       </div>
-      <menu className="flex flex-col justify-between h-[85vh]">
-        <div className="flex flex-col space-y-10 items-start">
+      <menu className="flex flex-col justify-between h-[85vh] mt-8">
+        <div className="flex flex-col space-y-10 items-start text-white">
           <button className="text-md">Pendanaan</button>
           <button className="text-md">Projek</button>
           <button className="text-md">ICX Pasti</button>

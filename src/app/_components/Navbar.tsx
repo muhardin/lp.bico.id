@@ -2,6 +2,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import SideBar from "./SideBar";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
@@ -24,7 +35,7 @@ const Navbar = () => {
       <Link href="/">
         <Image
           loading="lazy"
-          className="h-[26px] object-contain ml-5 lg:h-[50px] xl:mt-0 2xl:ml-52 lg:ml-16"
+          className="h-[50px] object-contain ml-5 lg:h-[60px] xl:mt-0 2xl:ml-52 lg:ml-16"
           src="/images/logo.png"
           alt="icx-logo"
           width={150}
@@ -32,13 +43,13 @@ const Navbar = () => {
         />
       </Link>
       <div className="hidden font-medium lg:flex text-white">
-        <Link href="/ico">
+        <Link href="/fundraise">
           <p
             className={`${
               isScrolled ? "text-black" : "text-white"
             } text-md mx-5`}
           >
-            ICO
+            Pendanaan
           </p>
         </Link>
         <Link href="/projects">
@@ -47,7 +58,7 @@ const Navbar = () => {
               isScrolled ? "text-black" : "text-white"
             } text-md mx-5`}
           >
-            Project
+            Projek
           </p>
         </Link>
         <Link href="/icx-pasti">
@@ -97,17 +108,31 @@ const Navbar = () => {
           Hubungi Kami
         </button>
       </div>
-      <div className="lg:hidden">
-        <button className="flex items-center p-3 text-white">
-          <svg
-            className="block h-6 w-6 fill-current"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+      <div className="">
+        <Sheet>
+          <SheetTrigger>
+            <button className="flex items-center p-3 text-white">
+              <svg
+                className="block h-6 w-6 fill-current"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+            </button>
+          </SheetTrigger>
+          <SheetContent
+            side="left"
+            className="bg-gradient-to-br from-black via-black to-gray-600 z-50 text-white space-y-0 ease-in-out duration-500 border-none w-full"
           >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-          </svg>
-        </button>
+            <SheetHeader>
+              <SheetDescription className="w-full pt-0">
+                <SideBar />
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
       </div>
     </nav>
   );
