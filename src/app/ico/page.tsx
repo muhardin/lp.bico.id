@@ -404,7 +404,7 @@ const LandingPage = () => {
         <div className="container mx-auto p-5 sm:p-8 lg:p-12 xl:p-16 bg-black h-full xl:h-screen text-white">
           <div className="flex flex-col justify-center items-center h-full">
             <p className="text-2xl sm:text-3xl font-semibold text-center sm:w-2/3 xl:w-2/5">
-              Mengapa Menggalang Dana Melalui ICX?
+              Mengapa Menggalang Dana Melalui BICO?
             </p>
             <div className="flex flex-row flex-wrap justify-center mt-10">
               {[
@@ -417,26 +417,26 @@ const LandingPage = () => {
                 {
                   title: "Platform Berlisensi OJK, KSEI, dan ISO 27001",
                   description:
-                    "Seluruh investasi pada platform ICX telah tercatat di KSEI, berizin & diawasi oleh OJK, dan sistem keamanan yang telah tersertifikasi ISO 27001.",
+                    "Seluruh investasi pada platform BICO telah tercatat di KSEI, berizin & diawasi oleh OJK, dan sistem keamanan yang telah tersertifikasi ISO 27001.",
                   imageUrl: "/images/why-fundraise-2.svg",
                 },
                 {
                   title: "Membuka Peluang IPO",
                   description:
-                    "Meningkatkan valuasi perencanaan bisnis untuk melakukan Initial Public Offering (IPO) di masa yang akan datang. ICX dapat membantu dan menjembatani startup maupun bisnis lainnya untuk tumbuh menuju IPO dengan bantuan mitra kami Sucor Sekuritas.",
+                    "Meningkatkan valuasi perencanaan bisnis untuk melakukan Initial Public Offering (IPO) di masa yang akan datang. BICO dapat membantu dan menjembatani startup maupun bisnis lainnya untuk tumbuh menuju IPO dengan bantuan mitra kami Sucor Sekuritas.",
                   imageUrl: "/images/why-fundraise-3.svg",
                 },
                 {
                   title:
                     "Kemudahan Akses Menuju Sumber Daya Berbakat dan Bertalenta",
                   description:
-                    "Memanfaatkan kemutakhiran teknologi digital yang terampil, ICX menyalurkan dukungan talenta kepada startup dan bisnis yang telah berkolaborasi secara aktif dengan mitra kami Purwadhika.",
+                    "Memanfaatkan kemutakhiran teknologi digital yang terampil, BICO menyalurkan dukungan talenta kepada startup dan bisnis yang telah berkolaborasi secara aktif dengan mitra kami Purwadhika.",
                   imageUrl: "/images/why-fundraise-4.svg",
                 },
                 {
-                  title: "Kolaborasi Dengan Ekosistem ICX",
+                  title: "Kolaborasi Dengan Ekosistem BICO",
                   description:
-                    "Menjadi bagian dari ekosistem crowdfunding yang mapan membawa kredibilitas dan kepercayaan. ICX menerapkan proses uji tuntas yang ketat hingga melakukan kolaborasi dengan beberapa media seperti Finfolk & Teman Startup untuk memudahkan perkembangan pertumbuhan bisnis.",
+                    "Menjadi bagian dari ekosistem crowdfunding yang mapan membawa kredibilitas dan kepercayaan. BICO menerapkan proses uji tuntas yang ketat hingga melakukan kolaborasi dengan beberapa media seperti Finfolk & Teman Startup untuk memudahkan perkembangan pertumbuhan bisnis.",
                   imageUrl: "/images/why-fundraise-5.svg",
                 },
               ].map((item, index) => (
@@ -570,7 +570,7 @@ const LandingPage = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Bagaimana Cara Menggalang Dana Melalui ICX?
+              Bagaimana Cara Menggalang Dana Melalui BICO?
             </p>
             <p className="text-md sm:text-lg text-center w-full sm:w-2/3 xl:w-1/2 font-extralight sm:font-light leading-tight mt-6 mb-10">
               Kami berdedikasi untuk memberdayakan, memelihara, dan memperkuat
@@ -652,7 +652,7 @@ const LandingPage = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Mulai Melangkah Bersama ICX
+              Mulai Melangkah Bersama BICO
             </p>
             <p className="text-md font-extralight sm:font-light mb-12 mt-2 sm:w-2/5 text-center sm:text-start">
               Ambil langkah pertama menuju fundraising goals Anda. Daftar

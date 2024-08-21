@@ -79,7 +79,7 @@ const PageComponent = () => {
           <div className="flex flex-col items-center justify-center pt-10 pb-20">
             <div className="flex flex-col xl:flex-row items-center justify-between">
               <p className="text-xl xl:w-1/3 text-center xl:text-start font-semibold xl:font-normal">
-                Perusahaan yang tercatat sukses melakukan pendanaan bersama ICX
+                Perusahaan yang tercatat sukses melakukan pendanaan bersama BICO
               </p>
               <div className="pt-5 lg:pt-6 xl:p-0 w-full sm:w-2/3 xl:w-3/5">
                 <Image
@@ -114,7 +114,7 @@ const PageComponent = () => {
                   />
                 </div>
                 <p className="text-sm">
-                  Dengar apa yang dikatakan orang tentang ICX
+                  Dengar apa yang dikatakan orang tentang BICO
                 </p>
               </div>
               <div className="w-full relative my-10 block sm:hidden">
@@ -139,7 +139,7 @@ const PageComponent = () => {
                 <div>
                   <div className="h-auto xl:h-[300px] sm:w-1/2 flex items-center pt-8 pb-4">
                     <p className="text-lg xl:text-xl font-medium sm:pr-8">
-                      “Bekerjasama dengan ICX telah sangat membantu kami.
+                      “Bekerjasama dengan BICO telah sangat membantu kami.
                       Melalui platform mereka, kami dapat memperluas bisnis dan
                       jangkauan kami. Prosesnya lancar, timnya membantu, dan
                       kami menghargai dukungan mereka dalam mengumpulkan dana
@@ -211,7 +211,7 @@ const PageComponent = () => {
               Cara Baru Berinvestasi
             </p>
             <p className="text-md sm:text-lg text-center w-full lg:w-2/3 xl:w-1/2 font-extralight sm:font-light leading-tight mt-6 mb-10">
-              Dengan ICX, Anda sekarang memiliki cara untuk berinvestasi di
+              Dengan BICO, Anda sekarang memiliki cara untuk berinvestasi di
               startup yang menjanjikan dan bisnis swasta. Inilah yang memberi
               kita keunggulan.
             </p>
@@ -230,7 +230,7 @@ const PageComponent = () => {
                     Mudah dan Efektif
                   </p>
                   <p className="text-xs sm:text-sm font-extralight mt-2">
-                    ICX memberi Anda cara yang sederhana dan aman untuk
+                    BICO memberi Anda cara yang sederhana dan aman untuk
                     berinvestasi di berbagai bisnis di Indonesia, baik yang
                     sudah mapan maupun startup.
                   </p>
@@ -308,7 +308,7 @@ const PageComponent = () => {
             </p>
             <p className="text-md sm:text-lg text-center w-full lg:w-2/3 sm:w-1/2 font-extralight sm:font-light leading-tight mt-6 mb-10">
               Sebelumnya dikenal sebagai LandX yang kini mengawali era baru
-              sebagai ICX, kami telah menciptakan transformasi positif dalam
+              sebagai BICO, kami telah menciptakan transformasi positif dalam
               pergerakan industri. Dengan keberhasilan mewujudkan proyek-proyek
               inovatif, kami tidak hanya membuka peluang pekerjaan namun juga
               memberikan kontribusi signifikan pada perkembangan ekonomi

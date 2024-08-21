@@ -13,7 +13,7 @@ const MainPage = () => {
         }}
       >
         <div className="container mx-auto px-5 sm:px-8 lg:px-12 2xl:mx-36 xl:px-16 flex h-full justify-center flex-col">
-          <h1 className="text-white text-3xl mb-2">Telusuri Proyek ICX</h1>
+          <h1 className="text-white text-3xl mb-2">Telusuri Proyek BICO</h1>
           <p className="text-white text-sm font-extralight line-clamp-3 w-full sm:w-2/4 xl:w-1/3"></p>
         </div>
       </div>

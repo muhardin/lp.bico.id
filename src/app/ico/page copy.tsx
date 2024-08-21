@@ -27,13 +27,13 @@ const LandingPage = () => {
             <p className="text-md mx-5">Projek</p>
           </a>
           <a href="/icx-pasti">
-            <p className="text-md mx-5">ICX Pasti</p>
+            <p className="text-md mx-5">BICO Pasti</p>
           </a>
           <a href="/about-us">
             <p className="text-md mx-5">Tentang Kami</p>
           </a>
           <a href="/icx-connect">
-            <p className="text-md mx-5">ICX Connect</p>
+            <p className="text-md mx-5">BICO Connect</p>
           </a>
           <a href="/blog">
             <p className="text-md mx-5">Blog</p>
@@ -119,9 +119,9 @@ const LandingPage = () => {
           <div className="flex flex-col space-y-10 items-start">
             <button className="text-md">Pendanaan</button>
             <button className="text-md">Projek</button>
-            <button className="text-md">ICX Pasti</button>
+            <button className="text-md">BICO Pasti</button>
             <button className="text-md">Tentang Kami</button>
-            <button className="text-md">ICX Connect</button>
+            <button className="text-md">BICO Connect</button>
             <button className="text-md">Blog</button>
             <a href="/create-pin">
               <p className="text-sm text-brand-500 border-b border-brand-400">
@@ -574,7 +574,7 @@ const LandingPage = () => {
         <div className="container mx-auto p-5 sm:p-8 lg:p-12 xl:p-16 bg-black h-full xl:h-screen text-white">
           <div className="flex flex-col justify-center items-center h-full">
             <p className="text-2xl sm:text-3xl font-semibold text-center sm:w-2/3 xl:w-2/5">
-              Mengapa Menggalang Dana Melalui ICX?
+              Mengapa Menggalang Dana Melalui BICO?
             </p>
             <div className="flex flex-row flex-wrap justify-center mt-10">
               {[
@@ -587,26 +587,26 @@ const LandingPage = () => {
                 {
                   title: "Platform Berlisensi OJK, KSEI, dan ISO 27001",
                   description:
-                    "Seluruh investasi pada platform ICX telah tercatat di KSEI, berizin & diawasi oleh OJK, dan sistem keamanan yang telah tersertifikasi ISO 27001.",
+                    "Seluruh investasi pada platform BICO telah tercatat di KSEI, berizin & diawasi oleh OJK, dan sistem keamanan yang telah tersertifikasi ISO 27001.",
                   imageUrl: "/images/why-fundraise-2.svg",
                 },
                 {
                   title: "Membuka Peluang IPO",
                   description:
-                    "Meningkatkan valuasi perencanaan bisnis untuk melakukan Initial Public Offering (IPO) di masa yang akan datang. ICX dapat membantu dan menjembatani startup maupun bisnis lainnya untuk tumbuh menuju IPO dengan bantuan mitra kami Sucor Sekuritas.",
+                    "Meningkatkan valuasi perencanaan bisnis untuk melakukan Initial Public Offering (IPO) di masa yang akan datang. BICO dapat membantu dan menjembatani startup maupun bisnis lainnya untuk tumbuh menuju IPO dengan bantuan mitra kami Sucor Sekuritas.",
                   imageUrl: "/images/why-fundraise-3.svg",
                 },
                 {
                   title:
                     "Kemudahan Akses Menuju Sumber Daya Berbakat dan Bertalenta",
                   description:
-                    "Memanfaatkan kemutakhiran teknologi digital yang terampil, ICX menyalurkan dukungan talenta kepada startup dan bisnis yang telah berkolaborasi secara aktif dengan mitra kami Purwadhika.",
+                    "Memanfaatkan kemutakhiran teknologi digital yang terampil, BICO menyalurkan dukungan talenta kepada startup dan bisnis yang telah berkolaborasi secara aktif dengan mitra kami Purwadhika.",
                   imageUrl: "/images/why-fundraise-4.svg",
                 },
                 {
-                  title: "Kolaborasi Dengan Ekosistem ICX",
+                  title: "Kolaborasi Dengan Ekosistem BICO",
                   description:
-                    "Menjadi bagian dari ekosistem crowdfunding yang mapan membawa kredibilitas dan kepercayaan. ICX menerapkan proses uji tuntas yang ketat hingga melakukan kolaborasi dengan beberapa media seperti Finfolk & Teman Startup untuk memudahkan perkembangan pertumbuhan bisnis.",
+                    "Menjadi bagian dari ekosistem crowdfunding yang mapan membawa kredibilitas dan kepercayaan. BICO menerapkan proses uji tuntas yang ketat hingga melakukan kolaborasi dengan beberapa media seperti Finfolk & Teman Startup untuk memudahkan perkembangan pertumbuhan bisnis.",
                   imageUrl: "/images/why-fundraise-5.svg",
                 },
               ].map((item, index) => (
@@ -740,7 +740,7 @@ const LandingPage = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Bagaimana Cara Menggalang Dana Melalui ICX?
+              Bagaimana Cara Menggalang Dana Melalui BICO?
             </p>
             <p className="text-md sm:text-lg text-center w-full sm:w-2/3 xl:w-1/2 font-extralight sm:font-light leading-tight mt-6 mb-10">
               Kami berdedikasi untuk memberdayakan, memelihara, dan memperkuat
@@ -822,7 +822,7 @@ const LandingPage = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Mulai Melangkah Bersama ICX
+              Mulai Melangkah Bersama BICO
             </p>
             <p className="text-md font-extralight sm:font-light mb-12 mt-2 sm:w-2/5 text-center sm:text-start">
               Ambil langkah pertama menuju fundraising goals Anda. Daftar
@@ -1134,7 +1134,7 @@ const LandingPage = () => {
                 <h2>Disclaimer</h2>
                 <p className="text-slate-500 font-light hidden lg:block text-sm">
                   <span className="font-medium">PT ICO Pelopor Indonesia </span>
-                  (selanjutnya disebut “ICX”) adalah Perusahaan yang didirikan
+                  (selanjutnya disebut “BICO”) adalah Perusahaan yang didirikan
                   berdasarkan Hukum Indonesia yang bertindak sebagai
                   Penyelenggara Layanan Urun Dana Melalui Penawaran Efek
                   Berbasis Teknologi Informasi yang telah berizin dan diawasi
@@ -1144,27 +1144,27 @@ const LandingPage = () => {
                   Berbasis Teknologi Informasi PT Numex Teknologi Indonesia.
                   Kegiatan Investasi melalui Layanan Urun Dana memiliki tingkat
                   risiko tinggi, Pemodal diwajibkan telah membaca Syarat dan
-                  Ketentuan serta seluruh dokumen yang dipaparkan oleh ICX
-                  melalui website dan/atau aplikasi ICX. ICX tidak pernah
+                  Ketentuan serta seluruh dokumen yang dipaparkan oleh BICO
+                  melalui website dan/atau aplikasi BICO. BICO tidak pernah
                   memaksa Pemodal untuk melakukan pembelian Efek yang sedang
                   ditawarkan. Segala transaksi yang dilakukan oleh Pemodal
                   dilakukan oleh Pemodal dengan kesadaran penuh dan tanpa
-                  paksaan dari Pihak manapun. ICX berperan sebagai Penyelenggara
-                  Layanan Urun Dana dalam melakukan kegiatan Penawaran Efek
-                  Melalui Layanan Urun Dana Berbasis Teknologi Informasi yang
-                  mempertemukan antara Penerbit dengan Pemodal. OJK bertindak
-                  sebagai regulator dan pemberi izin serta pengawas, tidak
-                  sebagai penjamin investasi. Segala risiko menjadi tanggung
-                  jawab penuh dari Pemodal. Pemodal telah menyadari secara penuh
-                  bahwa terdapat sejumlah risiko dalam melakukan investasi pada
-                  layanan urun dana. Oleh karena itu, ICX TIDAK BERTANGGUNG
-                  JAWAB terhadap kerugian dan gugatan hukum serta segala bentuk
-                  risiko lain yang timbul di kemudian hari. Sejumlah risiko
-                  tersebut diantaranya:
+                  paksaan dari Pihak manapun. BICO berperan sebagai
+                  Penyelenggara Layanan Urun Dana dalam melakukan kegiatan
+                  Penawaran Efek Melalui Layanan Urun Dana Berbasis Teknologi
+                  Informasi yang mempertemukan antara Penerbit dengan Pemodal.
+                  OJK bertindak sebagai regulator dan pemberi izin serta
+                  pengawas, tidak sebagai penjamin investasi. Segala risiko
+                  menjadi tanggung jawab penuh dari Pemodal. Pemodal telah
+                  menyadari secara penuh bahwa terdapat sejumlah risiko dalam
+                  melakukan investasi pada layanan urun dana. Oleh karena itu,
+                  BICO TIDAK BERTANGGUNG JAWAB terhadap kerugian dan gugatan
+                  hukum serta segala bentuk risiko lain yang timbul di kemudian
+                  hari. Sejumlah risiko tersebut diantaranya:
                 </p>
                 <p className="text-slate-500 font-light block lg:hidden text-xs">
                   <span className="font-medium">PT ICO Pelopor Indonesia</span>
-                  (“ICX” atau “Penyelenggara”) hadir dalam rangka mendukung
+                  (“BICO” atau “Penyelenggara”) hadir dalam rangka mendukung
                   program pemerintah di bidang perumahan dengan mengembangkan
                   bisnis layanan urun dana bersama, dengan mempertemukan Pemodal
                   dan pihak pengembang properti (“Penerbit”) (selanjutnya
@@ -1175,15 +1175,15 @@ const LandingPage = () => {
                   hubungan tersebut akan menjadi tanggung jawab masing-masing
                   pihak. Risiko yang timbul dari hak sebagai Pemodal untuk
                   menerima dividen dari Penerbit merupakan risiko yang wajib
-                  ditanggung oleh Pemodal sesuai kebijakan dividen Penerbit. ICX
-                  hanya bertindak sebagai layanan urun dana yang mempertemukan
-                  antara Pemodal dengan Penerbit, dan tidak bertindak sebagai
-                  pelaku usaha yang menjalankan usaha untuk mengumpulkan dana
-                  terkait atau pengelola investasi (Penerbit). Sesuai dengan
-                  Pasal 23 Peraturan Otoritas Jasa Keuangan No. 37 Tahun 2018
-                  tentang Layanan Urun Dana melalui Penawaran Saham Berbasis
-                  Teknologi Informasi atau Equity Crowdfunding (“POJK 37/2018”),
-                  kami menyatakan bahwa:
+                  ditanggung oleh Pemodal sesuai kebijakan dividen Penerbit.
+                  BICO hanya bertindak sebagai layanan urun dana yang
+                  mempertemukan antara Pemodal dengan Penerbit, dan tidak
+                  bertindak sebagai pelaku usaha yang menjalankan usaha untuk
+                  mengumpulkan dana terkait atau pengelola investasi (Penerbit).
+                  Sesuai dengan Pasal 23 Peraturan Otoritas Jasa Keuangan No. 37
+                  Tahun 2018 tentang Layanan Urun Dana melalui Penawaran Saham
+                  Berbasis Teknologi Informasi atau Equity Crowdfunding (“POJK
+                  37/2018”), kami menyatakan bahwa:
                 </p>
                 <ul className="list-disc space-y-3 text-[10px] text-slate-500 lg:hidden text-xs">
                   <li>

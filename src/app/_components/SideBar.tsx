@@ -36,9 +36,9 @@ const SideBar = () => {
         <div className="flex flex-col space-y-10 items-start text-white">
           <button className="text-md">Pendanaan</button>
           <button className="text-md">Projek</button>
-          <button className="text-md">ICX Pasti</button>
+          <button className="text-md">BICO Pasti</button>
           <button className="text-md">Tentang Kami</button>
-          <button className="text-md">ICX Connect</button>
+          <button className="text-md">BICO Connect</button>
           <button className="text-md">Blog</button>
           <Link href="/create-pin">
             <p className="text-sm text-brand-500 border-b border-brand-400">

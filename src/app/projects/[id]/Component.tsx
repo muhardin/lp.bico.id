@@ -102,12 +102,60 @@ const Component = () => {
                     Pendanaan Ditutup
                   </p>
                 </div>
-                <p className="text-sm text-slate-600 font-light">
-                  Target Pendanaan Rp 4.235.000.000
-                </p>
-                <p className="text-sm text-slate-600 font-light">
-                  Minimum Investasi Rp 1.000.000
-                </p>
+                <div className="cursor-pointer">
+                  <p className="font-semibold text-md line-clamp-1">
+                    Tether Coin (USDT)
+                  </p>
+                  <p className="text-xs line-clamp-1">Coming soon</p>
+                  <p className="font-light text-xs text-brand-500 mt-3">
+                    Supply
+                  </p>
+                  <p className="font-medium text-sm line-clamp-1">
+                    4.235.000.000 MTRX
+                  </p>
+                  <p className="font-light text-xs text-brand-500 mt-3">
+                    Available
+                  </p>
+                  <p className="font-medium text-xs text-brand-500 line-clamp-1">
+                    4.235.000.000 MTRX
+                  </p>
+                  <p className="font-light text-xs text-brand-500 mt-3">
+                    Price
+                  </p>
+                  <p className="font-medium text-xs text-brand-500 line-clamp-1">
+                    0.05 BICO
+                  </p>
+                  <div className="flex flex-row items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="w-4 text-brand-500"
+                    >
+                      <rect
+                        width="18"
+                        height="18"
+                        x="3"
+                        y="4"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="16" x2="16" y1="2" y2="6"></line>
+                      <line x1="8" x2="8" y1="2" y2="6"></line>
+                      <line x1="3" x2="21" y1="10" y2="10"></line>
+                      <path d="m9 16 2 2 4-4"></path>
+                    </svg>
+                    <p className="font-medium text-xs ml-1 text-brand-500">
+                      Coming Soon
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="mb-12">

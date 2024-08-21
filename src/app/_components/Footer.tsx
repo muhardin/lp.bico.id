@@ -255,7 +255,7 @@ const Footer = () => {
               <h2>Disclaimer</h2>
               <p className="text-slate-500 font-light hidden lg:block text-sm">
                 <span className="font-medium">PT ICO Pelopor Indonesia </span>
-                (selanjutnya disebut “ICX”) adalah Perusahaan yang didirikan
+                (selanjutnya disebut “BICO”) adalah Perusahaan yang didirikan
                 berdasarkan Hukum Indonesia yang bertindak sebagai Penyelenggara
                 Layanan Urun Dana Melalui Penawaran Efek Berbasis Teknologi
                 Informasi yang telah berizin dan diawasi oleh Otoritas Jasa
@@ -265,26 +265,26 @@ const Footer = () => {
                 Informasi PT Numex Teknologi Indonesia. Kegiatan Investasi
                 melalui Layanan Urun Dana memiliki tingkat risiko tinggi,
                 Pemodal diwajibkan telah membaca Syarat dan Ketentuan serta
-                seluruh dokumen yang dipaparkan oleh ICX melalui website
-                dan/atau aplikasi ICX. ICX tidak pernah memaksa Pemodal untuk
+                seluruh dokumen yang dipaparkan oleh BICO melalui website
+                dan/atau aplikasi BICO. BICO tidak pernah memaksa Pemodal untuk
                 melakukan pembelian Efek yang sedang ditawarkan. Segala
                 transaksi yang dilakukan oleh Pemodal dilakukan oleh Pemodal
-                dengan kesadaran penuh dan tanpa paksaan dari Pihak manapun. ICX
-                berperan sebagai Penyelenggara Layanan Urun Dana dalam melakukan
-                kegiatan Penawaran Efek Melalui Layanan Urun Dana Berbasis
-                Teknologi Informasi yang mempertemukan antara Penerbit dengan
-                Pemodal. OJK bertindak sebagai regulator dan pemberi izin serta
-                pengawas, tidak sebagai penjamin investasi. Segala risiko
+                dengan kesadaran penuh dan tanpa paksaan dari Pihak manapun.
+                BICO berperan sebagai Penyelenggara Layanan Urun Dana dalam
+                melakukan kegiatan Penawaran Efek Melalui Layanan Urun Dana
+                Berbasis Teknologi Informasi yang mempertemukan antara Penerbit
+                dengan Pemodal. OJK bertindak sebagai regulator dan pemberi izin
+                serta pengawas, tidak sebagai penjamin investasi. Segala risiko
                 menjadi tanggung jawab penuh dari Pemodal. Pemodal telah
                 menyadari secara penuh bahwa terdapat sejumlah risiko dalam
-                melakukan investasi pada layanan urun dana. Oleh karena itu, ICX
-                TIDAK BERTANGGUNG JAWAB terhadap kerugian dan gugatan hukum
+                melakukan investasi pada layanan urun dana. Oleh karena itu,
+                BICO TIDAK BERTANGGUNG JAWAB terhadap kerugian dan gugatan hukum
                 serta segala bentuk risiko lain yang timbul di kemudian hari.
                 Sejumlah risiko tersebut diantaranya:
               </p>
               <p className="text-slate-500 font-light block lg:hidden text-xs">
                 <span className="font-medium">PT ICO Pelopor Indonesia</span>
-                (“ICX” atau “Penyelenggara”) hadir dalam rangka mendukung
+                (“BICO” atau “Penyelenggara”) hadir dalam rangka mendukung
                 program pemerintah di bidang perumahan dengan mengembangkan
                 bisnis layanan urun dana bersama, dengan mempertemukan Pemodal
                 dan pihak pengembang properti (“Penerbit”) (selanjutnya Pemodal
@@ -295,7 +295,7 @@ const Footer = () => {
                 tersebut akan menjadi tanggung jawab masing-masing pihak. Risiko
                 yang timbul dari hak sebagai Pemodal untuk menerima dividen dari
                 Penerbit merupakan risiko yang wajib ditanggung oleh Pemodal
-                sesuai kebijakan dividen Penerbit. ICX hanya bertindak sebagai
+                sesuai kebijakan dividen Penerbit. BICO hanya bertindak sebagai
                 layanan urun dana yang mempertemukan antara Pemodal dengan
                 Penerbit, dan tidak bertindak sebagai pelaku usaha yang
                 menjalankan usaha untuk mengumpulkan dana terkait atau pengelola

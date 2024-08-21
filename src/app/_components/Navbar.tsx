@@ -67,15 +67,7 @@ const Navbar = () => {
             Project
           </p>
         </Link>
-        <Link href="/icx-pasti">
-          <p
-            className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
-            }`}
-          >
-            ICX Pasti
-          </p>
-        </Link>
+
         <Link href="/about-us">
           <p
             className={`text-md mx-5 ${
@@ -85,13 +77,13 @@ const Navbar = () => {
             About Us
           </p>
         </Link>
-        <Link href="/icx-connect">
+        <Link href="/bico-connect">
           <p
             className={`text-md mx-5 ${
               isScrolled ? "text-black" : "text-white"
             }`}
           >
-            ICX Connect
+            BICO Connect
           </p>
         </Link>
         <Link href="/blog">
