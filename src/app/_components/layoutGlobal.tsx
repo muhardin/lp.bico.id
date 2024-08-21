@@ -16,7 +16,6 @@ const LayoutGlobal = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="font-sans bg-white">
       <Navbar />
-      {/* <SideBar /> */}
       {children}
       <Footer />
     </main>

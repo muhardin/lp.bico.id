@@ -12,7 +12,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import SideBar from "./SideBar";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,14 +33,14 @@ const Navbar = () => {
   return (
     <nav
       id="fixed-navbar"
-      className={`h-16 pr-2 md:pr-14 lg:h-20 ease-in-out duration-500 fixed w-full z-40 flex justify-between items-center ${
+      className={`h-16 lg:h-20 ease-in-out duration-500 fixed w-full z-40 flex justify-between items-center ${
         isScrolled ? "bg-white text-black" : "bg-transparent text-white"
       }`}
     >
       <Link href="/">
         <Image
           loading="lazy"
-          className="h-[50px] object-contain md:ml-5 lg:h-[60px] xl:mt-0 2xl:ml-52 lg:ml-16"
+          className="h-[50px] object-contain ml-5 lg:h-[60px] xl:mt-0 2xl:ml-52 lg:ml-16"
           src="/images/logo.png"
           alt="icx-logo"
           width={150}
@@ -134,7 +133,7 @@ const Navbar = () => {
           >
             <SheetHeader>
               <SheetDescription className="w-full pt-0">
-                <SideBar />
+                {/* <SideBar /> */}
               </SheetDescription>
             </SheetHeader>
           </SheetContent>
