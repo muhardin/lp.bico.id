@@ -13,11 +13,12 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import SideBar from "./SideBar";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathName = usePathname();
+  const router = useRouter();
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -97,7 +98,7 @@ const Navbar = () => {
             BICO Connect
           </p>
         </Link>
-        <Link href="/blog">
+        <Link href="/contact-us">
           <p
             className={`text-md mx-5 ${
               isScrolled || pathName === "/contact-us"
@@ -114,8 +115,19 @@ const Navbar = () => {
           isScrolled ? "text-black" : "text-white"
         }`}
       >
-        <button>Login</button>
-        <button className="px-5 py-2 rounded-lg bg-brand-4000 text-white text-sm font-light bg-green-700">
+        <button
+          onClick={() => {
+            router.push("https://bico.id/en/client");
+          }}
+        >
+          Login
+        </button>
+        <button
+          onClick={() => {
+            router.push("/contact-us");
+          }}
+          className="px-5 py-2 rounded-lg bg-brand-4000 text-white text-sm font-light bg-green-700"
+        >
           Contact Us
         </button>
       </div>
