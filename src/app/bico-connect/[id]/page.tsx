@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const StartupPitchPage = () => {
   return (
     <div className="lg:pt-28">
@@ -13,7 +15,9 @@ const StartupPitchPage = () => {
             </li>
             <li>
               <div className="flex items-center">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="rtl:rotate-180 w-2 h-2 text-gray-400 mx-1"
                   src="/images/chevron-right.svg"
                   alt="next"
@@ -28,7 +32,9 @@ const StartupPitchPage = () => {
             </li>
             <li aria-current="page">
               <div className="flex items-center">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="rtl:rotate-180 w-2 h-2 text-gray-400 mx-1"
                   src="/images/chevron-right.svg"
                   alt="next"
@@ -41,8 +47,10 @@ const StartupPitchPage = () => {
           </ol>
         </div>
       </div>
-      <img
+      <Image
         className="lg:h-[400px] lg:mx-auto lg:rounded-lg"
+        width={100}
+        height={100}
         src="https://storage.googleapis.com/icx-bucket-production/icx-event-the-startup-pitch-banner-image-16-9.png"
         alt="cover-image"
       />
@@ -60,7 +68,9 @@ const StartupPitchPage = () => {
                 </li>
                 <li>
                   <div className="flex items-center">
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       className="rtl:rotate-180 w-2 h-2 text-gray-400 mx-1"
                       src="/images/chevron-right.svg"
                       alt="next"
@@ -75,7 +85,9 @@ const StartupPitchPage = () => {
                 </li>
                 <li aria-current="page">
                   <div className="flex items-center">
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       className="rtl:rotate-180 w-2 h-2 text-gray-400 mx-1"
                       src="/images/chevron-right.svg"
                       alt="next"
@@ -95,7 +107,9 @@ const StartupPitchPage = () => {
           <h4 className="font-medium mt-4 lg:text-lg">Schedule</h4>
           <div className="space-y-2 pt-4">
             <div className="flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/calendar-icon.svg"
                 className="w-5 h-5"
                 alt="icon"
@@ -105,7 +119,9 @@ const StartupPitchPage = () => {
               </p>
             </div>
             <div className="flex items-center space-x-2">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/clock-icon.svg"
                 className="w-5 h-5"
                 alt="icon"
@@ -113,7 +129,13 @@ const StartupPitchPage = () => {
               <p className="text-sm font-extralight">13:00 - 19:00 WIB</p>
             </div>
             <div className="flex items-start space-x-2 lg:hidden">
-              <img src="/images/pin-icon.svg" className="w-5 h-5" alt="icon" />
+              <Image
+                width={100}
+                height={100}
+                src="/images/pin-icon.svg"
+                className="w-5 h-5"
+                alt="icon"
+              />
               <div>
                 <p className="text-sm font-extralight">ICX Hall</p>
                 <a
@@ -125,7 +147,13 @@ const StartupPitchPage = () => {
               </div>
             </div>
             <div className="flex items-center space-x-2 lg:hidden">
-              <img src="/images/user-icon.svg" alt="" className="w-5 h-5" />
+              <Image
+                width={100}
+                height={100}
+                src="/images/user-icon.svg"
+                alt=""
+                className="w-5 h-5"
+              />
               <p className="text-sm font-extralight">Kuota 100 Orang</p>
             </div>
           </div>
@@ -133,7 +161,13 @@ const StartupPitchPage = () => {
             Location
           </h4>
           <div className="flex items-start space-x-2 mt-4">
-            <img src="/images/pin-icon.svg" alt="icon" className="w-5 h-5" />
+            <Image
+              width={100}
+              height={100}
+              src="/images/pin-icon.svg"
+              alt="icon"
+              className="w-5 h-5"
+            />
             <div>
               <p className="text-sm font-extralight">ICX Hall</p>
               <a
@@ -161,7 +195,9 @@ const StartupPitchPage = () => {
         <div className="lg:col-span-1 hidden lg:flex lg:flex-col justify-center items-center w-[300px] h-[134px] rounded-md shadow-[6px_15px_80px_1px_#edf2f7]">
           <h5 className="text-sm">Share this event</h5>
           <div className="flex space-x-2.5">
-            <img
+            <Image
+              width={100}
+              height={100}
               src="/images/chain-icon.svg"
               alt="icon"
               className="w-6 h-6 hover:cursor-pointer"
@@ -177,7 +213,9 @@ const StartupPitchPage = () => {
                 cursor: "pointer",
               }}
             >
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/facebook.svg"
                 className="w-6 h-6"
                 alt="facebook"
@@ -194,7 +232,9 @@ const StartupPitchPage = () => {
                 cursor: "pointer",
               }}
             >
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/twitter.svg"
                 className="w-6 h-6"
                 alt="twitter"
@@ -211,7 +251,9 @@ const StartupPitchPage = () => {
                 cursor: "pointer",
               }}
             >
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/images/linkedin.svg"
                 className="w-6 h-6"
                 alt="linkedin"

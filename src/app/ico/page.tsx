@@ -26,7 +26,7 @@ const LandingPage = () => {
             <div className="flex flex-col sm:flex-row w-full">
               <a href="/contact-us">
                 <button className="bg-brand-400 ease-in-out duration-300 w-full sm:w-fit px-20 lg:px-12 py-2 text-sm rounded hover:opacity-80 bg-sky-600">
-                  Hubungi Kami
+                  Contact Us
                 </button>
               </a>
               <a
@@ -662,7 +662,7 @@ const LandingPage = () => {
             <div className="flex flex-col lg:flex-row w-full">
               <a href="/contact-us">
                 <button className="bg-brand-400 ease-in-out duration-300 w-full sm:w-2/5 lg:w-fit px-20 lg:px-12 py-2 text-sm rounded hover:opacity-80 text-white">
-                  Hubungi Kami
+                  Contact Us
                 </button>
               </a>
               <a

@@ -14,17 +14,17 @@ const page = () => {
         >
           <div className="container mx-auto p-5 sm:p-8 lg:p-12 xl:p-16 text-white h-[105vh] xl:h-[120vh]">
             <div className="flex justify-center items-start flex-col h-[105vh] xl:h-[120vh] pb-[25%] lg:pb-0">
-              <p className="font-semibold text-2xl lg:text-4xl xl:text-4xl lg:text-center lg:text-start xl:w-2/5">
+              <p className="font-semibold text-2xl lg:text-4xl xl:text-4xl  lg:text-start xl:w-2/5">
                 Kami menyediakan Anda dengan cara baru untuk berinvestasi pada
                 bisnis yang Anda percayai
               </p>
               <div className="flex flex-col xl:flex-row w-full mt-4">
-                <p className="w-[400px] text-md lg:text-lg w-full font-thin sm:font-light leading-snug xl:mt-4 mb-8 lg:mb-10 lg:text-center lg:text-start">
+                <p className=" text-md lg:text-lg w-full font-thin sm:font-light leading-snug xl:mt-4 mb-8 lg:mb-10 lg:text-start">
                   Platform kami memfasilitasi perusahaan swasta yang terkurasi
                   dalam mengumpulkan dana dari investor dan pertukaran saham,
                   menjadi jembatan antara bisnis dan masyarakat
                 </p>
-                <p className="xl:ml-[200px] w-[400px] text-md lg:text-lg w-full font-thin sm:font-light leading-snug xl:mt-4 mb-8 lg:mb-10 lg:text-center lg:text-start">
+                <p className="xl:ml-[200px]  text-md lg:text-lg w-full font-thin sm:font-light leading-snug xl:mt-4 mb-8 lg:mb-10 lg:text-center">
                   Dengan BICO, kami berusaha memberdayakan investor umum dan
                   bisnis swasta untuk tumbuh bersama
                 </p>
@@ -32,7 +32,7 @@ const page = () => {
               <div className="flex flex-col sm:flex-row w-full">
                 <a href="/contact-us">
                   <button className="bg-brand-400 ease-in-out duration-300 w-full sm:w-fit px-20 lg:px-12 py-2 text-sm rounded hover:opacity-80">
-                    Hubungi Kami
+                    Contact Us
                   </button>
                 </a>
                 <a

@@ -28,7 +28,7 @@ const PageComponent = () => {
             </div>
             <Link href="/contact-us">
               <button className="bg-brand-400 ease-in-out duration-300 w-fit px-20 lg:px-12 py-2 text-sm rounded hover:opacity-80">
-                Hubungi Kami
+                Contact Us
               </button>
             </Link>
             <div className="flex flex-row mt-4 sm:mt-6 lg:mt-10 items-center justify-center lg:justify-start">
@@ -348,7 +348,7 @@ const PageComponent = () => {
             </p>
             <Link href="/contact-us">
               <button className="bg-brand-400 ease-in-out duration-300 w-fit px-20 lg:px-12 py-2 text-sm rounded hover:opacity-80">
-                Hubungi Kami
+                Contact Us
               </button>
             </Link>
           </div>

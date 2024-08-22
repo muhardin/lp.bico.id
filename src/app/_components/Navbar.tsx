@@ -13,10 +13,11 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import SideBar from "./SideBar";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-
+  const pathName = usePathname();
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -30,12 +31,14 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  console.log(pathName);
   return (
     <nav
       id="fixed-navbar"
       className={`h-16 pr-2 md:pr-14 lg:h-20 ease-in-out duration-500 fixed w-full z-40 flex justify-between items-center ${
-        isScrolled ? "bg-white text-black" : "bg-transparent text-white"
+        pathName === "/contact-us" || isScrolled
+          ? "bg-white text-black"
+          : "bg-transparent text-white"
       }`}
     >
       <Link href="/">
@@ -52,7 +55,9 @@ const Navbar = () => {
         <Link href="/ico">
           <p
             className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || pathName === "/contact-us"
+                ? "text-black"
+                : "text-white"
             }`}
           >
             ICO
@@ -61,7 +66,9 @@ const Navbar = () => {
         <Link href="/projects">
           <p
             className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || pathName === "/contact-us"
+                ? "text-black"
+                : "text-white"
             }`}
           >
             Project
@@ -71,7 +78,9 @@ const Navbar = () => {
         <Link href="/about-us">
           <p
             className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || pathName === "/contact-us"
+                ? "text-black"
+                : "text-white"
             }`}
           >
             About Us
@@ -80,7 +89,9 @@ const Navbar = () => {
         <Link href="/bico-connect">
           <p
             className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || pathName === "/contact-us"
+                ? "text-black"
+                : "text-white"
             }`}
           >
             BICO Connect
@@ -89,7 +100,9 @@ const Navbar = () => {
         <Link href="/blog">
           <p
             className={`text-md mx-5 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || pathName === "/contact-us"
+                ? "text-black"
+                : "text-white"
             }`}
           >
             Blog
@@ -103,7 +116,7 @@ const Navbar = () => {
       >
         <button>Login</button>
         <button className="px-5 py-2 rounded-lg bg-brand-4000 text-white text-sm font-light bg-green-700">
-          Hubungi Kami
+          Contact Us
         </button>
       </div>
       <div className="lg:hidden">
